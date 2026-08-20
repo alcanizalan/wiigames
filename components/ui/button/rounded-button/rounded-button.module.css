@@ -1,0 +1,31 @@
+.roundedButton{
+    color: var(--black-font);
+    background: var(--light-white-menu);
+    border: 6px solid var(--blue-reflex);
+    outline: 3px solid var(--blue);
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: var(--font-wii), sans-serif;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    height: 100px;
+    max-width: 300px;
+
+    & .buttonText{
+        position: absolute;
+        z-index: 10;
+    }
+
+    & .buttonColor{
+        background: var(--blue-reflex);
+        align-self: flex-end;
+        height: 60%;
+        width: 100%;
+        position: absolute;
+        z-index: 5;
+    }
+}
