@@ -1,0 +1,17 @@
+& .header{
+    background-color: #fff;
+    height: 100px;
+    display: flex;
+    position: relative;
+
+    & .borderBottom{
+        background-color: #fff;
+        border-top: 2px solid var(--dark-gray-menu);
+        border-bottom: 3px solid var(--dark-gray-menu);
+        height: 8px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+
+    }
+}

@@ -1,0 +1,6 @@
+.footer{
+    height: 150px;
+    border-top: 4px solid var(--blue);
+    background-color: var(--light-gray-menu);
+    box-shadow: inset 0px 0px 50px var(--light-gray-shadow-menu);
+}

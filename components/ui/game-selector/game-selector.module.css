@@ -1,0 +1,6 @@
+.gameSelector{
+    height: 150px;
+    width: 200px;
+    border: 2px solid var(--gray-menu);
+    border-radius: 10px;
+}

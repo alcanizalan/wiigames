@@ -1,0 +1,18 @@
+& .footer{
+    background-color: #fff;
+    height: 100px;
+    display: flex;
+    position: relative;
+    bottom: 0;
+
+    & .borderBottom{
+        background-color: #fff;
+        border-top: 2px solid var(--dark-gray-menu);
+        border-bottom: 3px solid var(--dark-gray-menu);
+        height: 8px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+
+    }
+}
