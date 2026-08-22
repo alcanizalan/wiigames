@@ -1,0 +1,62 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    & .warning{
+        display: flex;
+        flex-direction: row;
+        font-size: 2.7em;
+        font-weight: 900;
+    }
+
+    & .message{
+        font-size: 2.2em;
+        font-weight: 700;
+        max-width: 800px;
+        text-align: center;
+    }
+
+    & .moreHereContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & .moreHere{
+            font-size: 1.8em;
+            font-weight: 700;
+
+        }
+
+        & .link{
+            font-size: 2.2em;
+            font-weight: 700;
+            color: var(--blue);
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+
+    
+
+    & .comeBack{
+        font-size: 2em;
+        font-weight: 700;
+        color: var(--dark-gray-menu);
+
+        & .comeBackHere{
+            border: 2px solid var(--dark-gray-menu);
+            padding: 3px 8px;
+            border-radius: 50px;
+        }
+    }
+    
+}

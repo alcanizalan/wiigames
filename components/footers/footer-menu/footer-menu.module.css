@@ -1,0 +1,77 @@
+.footer{
+    height: 180px;
+    border-top: 4px solid var(--blue);
+    background-color: var(--light-gray-menu);
+    box-shadow: inset 0px 0px 50px var(--light-gray-shadow-menu);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+    & .sectionLeft{
+        height: 100%;   
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+        & .infoLinkContainer{
+            width: 50%;
+            border-radius: 0 70px 70px 0;
+            border: 6px solid var(--gray-menu);
+            padding: 10px;
+            display: flex;
+            justify-content: flex-end;
+
+
+            & .infoLink{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 90px;
+                height: 90px;
+                border-radius: 50px;
+                border: 3px solid var(--blue);
+                background: radial-gradient(circle at 10% -20%, var(--dark-white-menu), var(--light-gray-menu));
+                box-shadow: inset -10px -10px 20px var(--light-gray-menu), 7px 7px 2px var(--gray-menu);
+            }
+        }
+
+        
+    }
+
+    & .sectionCenter{
+        height: 100%;   
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    & .sectionRight{
+        height: 100%;   
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+        & .notificationLinkContainer{
+            width: 50%;
+            border-radius: 70px 0 0 70px;
+            border: 6px solid var(--gray-menu);
+            padding: 10px;
+            display: flex;
+            justify-content: flex-start;
+
+
+            & .notificationLink{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 90px;
+                height: 90px;
+                border-radius: 50px;
+                border: 3px solid var(--blue);
+                background: radial-gradient(circle at 10% -20%, var(--dark-white-menu), var(--light-gray-menu));
+                box-shadow: inset -10px -10px 20px var(--light-gray-menu), 7px 7px 2px var(--gray-menu);
+            }
+        }
+        
+    }
+}
