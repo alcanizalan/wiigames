@@ -11,7 +11,7 @@ export default function Home() {
       <main className={styles.mainContent}>
         <div className={styles.gameSelectorContainer}>
           <GameSelector image="/thumbnails/alnchess_thumbnail.png" link="/games/alnchess"  />
-          <GameSelector />
+          <GameSelector image="/thumbnails/alntiktaktoe_thumbnail.png" link="/games/alntiktaktoe" />
           <GameSelector />
           <GameSelector />
           <GameSelector />
